@@ -25,11 +25,11 @@ labels are 1,2,3,4,5,6,7,8. The test set contains 701 instances.
 
 Table: Summary of data files given
 
-Filename          Description                                                   
-----------------  --------------------------------------------------------------
-data.csv          3486 instances each having 354 attributes or features         
-data_labels.csv   class labels (1,2,3,4,5,6,7,8) for each of the 3486 instances 
-test_set.csv      701 test instances without labels                             
+| Filename         | Description                                                    |
+| ---------------- | -------------------------------------------------------------- |
+| data.csv         | 3486 instances each having 354 attributes or features          |
+| data_labels.csv  | class labels (1,2,3,4,5,6,7,8) for each of the 3486 instances  |
+| test_set.csv     | 701 test instances without labels                              |
 
 Table 2 shows the number of instances per class. As can be seen from the `Count` column
 the training data set is highly imbalanced especially in classes 1, 3, and 7. To deal with
