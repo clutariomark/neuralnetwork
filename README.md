@@ -23,7 +23,7 @@ attributes. The training set is labeled which can be found in `data_labels.csv`.
 labels are 1,2,3,4,5,6,7,8. The test set contains 701 instances.
 
 
-Table: Summary of data files given
+Table 1: Summary of data files given
 
 | Filename         | Description                                                    |
 | ---------------- | -------------------------------------------------------------- |
@@ -38,18 +38,18 @@ The resulting number of instances is shown in the `Count After Augmentation` col
 training set is then divided into training set and validation set with a 2/3 to 1/3 ratio.
 
 
-Table: Summary of Training Data and Data Augmentation Procedure
+Table 2 : Summary of Training Data and Data Augmentation Procedure
 
- Class   Count  Data Augmentation    Count After Augmentation   # Training   # Validation
-------  ------  ------------------  -------------------------  -----------  -------------
-     1    1625  none                                     1625         1084            541
-     2     233  none                                      233          156             77
-     3      30  repeated 8x                               240          160             80
-     4     483  none                                      483          322            161
-     5     287  none                                      287          192             95
-     6     310  none                                      310          207            103
-     7      52  repeated 5x                               260          174             86
-     8     466  none                                      466          311            155
+|  Class |  Count | Data Augmentation  |  Count After Augmentation |  # Training |  # Validation |
+| ------ | ------ | ------------------ | ------------------------- | ----------- | ------------- |
+|      1 |   1625 | none               |                      1625 |        1084 |           541 |
+|      2 |    233 | none               |                       233 |         156 |            77 |
+|      3 |     30 | repeated 8x        |                       240 |         160 |            80 |
+|      4 |    483 | none               |                       483 |         322 |           161 |
+|      5 |    287 | none               |                       287 |         192 |            95 |
+|      6 |    310 | none               |                       310 |         207 |           103 |
+|      7 |     52 | repeated 5x        |                       260 |         174 |            86 |
+|      8 |    466 | none               |                       466 |         311 |           155 |
 
 ## ANN Program
 The Multilayer Perceptron Network with the Backpropagation Algorithm was implemented in C.
@@ -95,16 +95,16 @@ rate: 0.5, 0.1, and 0.01. The number of nodes selected for each run was chosen t
 than the number of features to avoid overfitting the network. 
 
 
-Table: Network specifications for the different ANN Runs
+Table 3 : Network specifications for the different ANN Runs
 
- Run   Nodes HL1   Nodes HL2   Learning Rate
-----  ----------  ----------  --------------
-   1          50          50            0.50
-   2          50          50            0.10
-   3          50          50            0.01
-   4         100         100            0.50
-   5         100         100            0.10
-   6         100         100            0.01
+| Run |  Nodes HL1 |  Nodes HL2 |  Learning Rate |
+|---- | ---------- | ---------- | -------------- |
+|   1 |         50 |         50 |           0.50 |
+|   2 |         50 |         50 |           0.10 |
+|   3 |         50 |         50 |           0.01 |
+|   4 |        100 |        100 |           0.50 |
+|   5 |        100 |        100 |           0.10 |
+|   6 |        100 |        100 |           0.01 |
 
 ## Support Vector Machine (SVM) as classifier
 The ANN implementation was also compared to the Support Vector Machine classifier.
@@ -150,16 +150,16 @@ took the network to converge longer than by using the learning of 0.1.
 ![Result of Run 6 - HL1: 100, HL2: 100, LR: 0.01](https://github.com/clutariomark/neuralnetwork/raw/master/images/h100h100l1-1.png)
 
 
-Table: Summary of the different runs
+Table 4 : Summary of the different runs
 
- run   epoch    precison      recall    f1 score
-----  ------  ----------  ----------  ----------
-   1    2072   0.9896254   0.9908292   0.9902109
-   2     567   0.9879322   0.9921651   0.9900266
-   3    2559   0.9894935   0.9907600   0.9900859
-   4    2376   0.9884298   0.9919810   0.9901580
-   5     630   0.9893539   0.9916270   0.9904760
-   6    2492   0.9893582   0.9916616   0.9904861
+| run |  epoch |   precison |     recall |   f1 score |
+|---- | ------ | ---------- | ---------- | ---------- |
+|   1 |   2072 |  0.9896254 |  0.9908292 |  0.9902109 |
+|   2 |    567 |  0.9879322 |  0.9921651 |  0.9900266 |
+|   3 |   2559 |  0.9894935 |  0.9907600 |  0.9900859 |
+|   4 |   2376 |  0.9884298 |  0.9919810 |  0.9901580 |
+|   5 |    630 |  0.9893539 |  0.9916270 |  0.9904760 |
+|   6 |   2492 |  0.9893582 |  0.9916616 |  0.9904861 |
 
 \pagebreak
 
