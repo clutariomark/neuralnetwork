@@ -1,4 +1,4 @@
-# A Simple Artifical Neural Netowrk implemented in C
+# A Simple Artifical Neural Network implemented in C
   
 
 
@@ -137,17 +137,17 @@ took the network to converge longer than by using the learning of 0.1.
 
 
 
-![Result of Run 1 - HL1: 50, HL2: 50, LR: 0.5](cs280_pa3_files/figure-html/h50h50l50-1.png)
+![Result of Run 1 - HL1: 50, HL2: 50, LR: 0.5](https://github.com/clutariomark/neuralnetwork/raw/master/images/h50h50l50-1.png)
 
-![Result of Run 2 - HL1: 50, HL2: 50, LR: 0.1](cs280_pa3_files/figure-html/h50h50l10-1.png)
+![Result of Run 2 - HL1: 50, HL2: 50, LR: 0.1](https://github.com/clutariomark/neuralnetwork/raw/master/images/h50h50l10-1.png)
 
-![Result of Run 3 - HL1: 50, HL2: 50, LR: 0.01](cs280_pa3_files/figure-html/h50h50l1-1.png)
+![Result of Run 3 - HL1: 50, HL2: 50, LR: 0.01](https://github.com/clutariomark/neuralnetwork/raw/master/images/h50h50l1-1.png)
 
-![Result of Run 4 - HL1: 100, HL2: 100, LR: 0.5](cs280_pa3_files/figure-html/h100h100l50-1.png)
+![Result of Run 4 - HL1: 100, HL2: 100, LR: 0.5](https://github.com/clutariomark/neuralnetwork/raw/master/images/h100h100l50-1.png)
 
-![Result of Run 5 - HL1: 100, HL2: 100, LR: 0.1](cs280_pa3_files/figure-html/h100h100l10-1.png)
+![Result of Run 5 - HL1: 100, HL2: 100, LR: 0.1](https://github.com/clutariomark/neuralnetwork/raw/master/images/h100h100l10-1.png)
 
-![Result of Run 6 - HL1: 100, HL2: 100, LR: 0.01](cs280_pa3_files/figure-html/h100h100l1-1.png)
+![Result of Run 6 - HL1: 100, HL2: 100, LR: 0.01](https://github.com/clutariomark/neuralnetwork/raw/master/images/h100h100l1-1.png)
 
 
 Table: Summary of the different runs
